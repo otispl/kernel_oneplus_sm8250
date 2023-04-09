@@ -136,8 +136,14 @@ all.config
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
-# Ignore build script
+# Build script
+horizon_build.sh
 build.sh
 
-# Ignore out directory
-out/
+# Output dir
+out
+
+#
+#Ignoring Android.bp link file
+#
+Android.bp
